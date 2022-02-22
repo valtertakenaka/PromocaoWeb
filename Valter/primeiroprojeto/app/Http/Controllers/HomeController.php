@@ -10,5 +10,11 @@ class HomeController extends Controller
     {
         return view("Welcome"); //tirando arquivo de rota
     }
+
+    public function primeiroexercicio()
+    {
+        return view("exercicio1"); //tirando arquivo de rota
+    }
+
 }
 //para cada entidade criar uma controller
